@@ -50,7 +50,7 @@ export default function HeroSlider() {
                 </div>
               </div>
             </div>
-            {/* slider item */}
+            {/* slider item
             <div className="hero-slider-item">
               <div className="row">
                 <div className="col-md-8">
@@ -89,9 +89,9 @@ export default function HeroSlider() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* slider item */}
-            <div className="hero-slider-item">
+            {/* <div className="hero-slider-item">
               <div className="row">
                 <div className="col-md-8">
                   <h1
@@ -129,7 +129,7 @@ export default function HeroSlider() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

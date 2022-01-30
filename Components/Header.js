@@ -4,9 +4,9 @@ export default function Header() {
   return (
     <>
       {/* <!-- preloader start --> */}
-      {/* <div className="preloader">
+      <div className="preloader">
         <img src="/images/preloader.gif" alt="preloader" />
-      </div> */}
+      </div>
       {/* <!-- preloader end --> */}
 
       {/* <!-- header --> */}
@@ -120,7 +120,7 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item @@about">
-                    <a className="nav-link" href="about.html">
+                    <a className="nav-link" href="about">
                       About
                     </a>
                   </li>
@@ -195,6 +195,140 @@ export default function Header() {
           </div>
         </div>
       </header>
+
+      <div>
+        {/* Modal */}
+        <div
+          className="modal fade"
+          id="signupModal"
+          tabIndex={-1}
+          role="dialog"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-lg" role="document">
+            <div className="modal-content rounded-0 border-0 p-4">
+              <div className="modal-header border-0">
+                <h3>Register</h3>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <div className="login">
+                  <form action="#" className="row">
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        className="form-control mb-3"
+                        id="signupPhone"
+                        name="signupPhone"
+                        placeholder="Phone"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        className="form-control mb-3"
+                        id="signupName"
+                        name="signupName"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="email"
+                        className="form-control mb-3"
+                        id="signupEmail"
+                        name="signupEmail"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="password"
+                        className="form-control mb-3"
+                        id="signupPassword"
+                        name="signupPassword"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <button type="submit" className="btn btn-primary">
+                        SIGN UP
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Modal */}
+        <div
+          className="modal fade"
+          id="loginModal"
+          tabIndex={-1}
+          role="dialog"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-lg" role="document">
+            <div className="modal-content rounded-0 border-0 p-4">
+              <div className="modal-header border-0">
+                <h3>Login</h3>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <form action="#" className="row">
+                  <div className="col-12">
+                    <input
+                      type="text"
+                      className="form-control mb-3"
+                      id="loginPhone"
+                      name="loginPhone"
+                      placeholder="Phone"
+                    />
+                  </div>
+                  <div className="col-12">
+                    <input
+                      type="text"
+                      className="form-control mb-3"
+                      id="loginName"
+                      name="loginName"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div className="col-12">
+                    <input
+                      type="password"
+                      className="form-control mb-3"
+                      id="loginPassword"
+                      name="loginPassword"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div className="col-12">
+                    <button type="submit" className="btn btn-primary">
+                      LOGIN
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
