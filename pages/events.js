@@ -1,4 +1,5 @@
 import React from "react";
+
 import Courses from "../Components/Courses";
 import Pagetitle from "../Components/Pagetitle";
 import Header from "../Components/Header";
@@ -14,4 +15,5 @@ export default function events() {
       <Footer />
     </>
   );
+
 }
