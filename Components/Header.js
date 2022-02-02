@@ -156,7 +156,7 @@ export default function Header() {
                       className="dropdown-menu"
                       aria-labelledby="navbarDropdown"
                     >
-                      <a className="dropdown-item" href="teacher">
+                      <a className="dropdown-item" href="teachers">
                         Teacher
                       </a>
                       <a className="dropdown-item" href="teacher-single">
@@ -174,13 +174,13 @@ export default function Header() {
                       <a className="dropdown-item" href="scholarship">
                         Scholarship
                       </a>
-                      <a className="dropdown-item" href="course-single">
+                      <a className="dropdown-item" href="courseDetails">
                         Course Details
                       </a>
-                      <a className="dropdown-item" href="event-single">
+                      <a className="dropdown-item" href="eventDetails">
                         Event Details
                       </a>
-                      <a className="dropdown-item" href="blog-single">
+                      <a className="dropdown-item" href="blogDetails">
                         Blog Details
                       </a>
                     </div>
