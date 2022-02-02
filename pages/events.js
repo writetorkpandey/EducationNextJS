@@ -1,16 +1,19 @@
 import React from "react";
-import EventsCourses from "../Components/EventsCourses";
-import EventsPageTitle from "../Components/EventsPageTitle";
-import Footer from "../Components/Footer";
+
+import Courses from "../Components/Courses";
+import Pagetitle from "../Components/Pagetitle";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import Event from "../Components/Event";
 
 export default function events() {
-	return (
-		<>
-			<Header />
-			<EventsPageTitle />
-			<EventsCourses />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Header />
+      <Pagetitle />
+      <Event />
+      <Footer />
+    </>
+  );
+
 }
