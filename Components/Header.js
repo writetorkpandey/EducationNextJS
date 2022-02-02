@@ -146,10 +146,7 @@ export default function Header() {
 										</a>
 									</li>
 									<li className="nav-item @@courses">
-										<a
-											className="nav-link"
-											href="courses.html"
-										>
+										<a className="nav-link" href="courses">
 											COURSES
 										</a>
 									</li>
@@ -187,25 +184,25 @@ export default function Header() {
 											</a>
 											<a
 												className="dropdown-item"
-												href="teacher-single.html"
+												href="teachersSingle"
 											>
 												Teacher Single
 											</a>
 											<a
 												className="dropdown-item"
-												href="notice.html"
+												href="notice"
 											>
 												Notice
 											</a>
 											<a
 												className="dropdown-item"
-												href="notice-single.html"
+												href="noticeDetails"
 											>
 												Notice Details
 											</a>
 											<a
 												className="dropdown-item"
-												href="research.html"
+												href="research"
 											>
 												Research
 											</a>
