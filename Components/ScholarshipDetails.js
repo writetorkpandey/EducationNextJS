@@ -4,19 +4,19 @@ export default function ScholarshipDetails() {
   return (
     <>
       {/* <!-- scholarship --> */}
-      <section class="section">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-6 mb-4 mb-md-0">
+      <section className="section">
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-md-6 mb-4 mb-md-0">
               <img
-                class="img-fluid"
+                className="img-fluid"
                 src="images/scholarship/scholarship.jpg"
                 alt="scholarship news"
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <h2>SCHOLARSHIPS NEWS</h2>
-              <strong class="mb-4 d-block">
+              <strong className="mb-4 d-block">
                 <i>Our campuses are living laboratories for sustainability.</i>
               </strong>
               <p>
@@ -31,19 +31,19 @@ export default function ScholarshipDetails() {
               </p>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             {/* <!-- scholarship item --> */}
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-              <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
+            <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <div className="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
                 <img
-                  class="card-img-top rounded-0"
+                  className="card-img-top rounded-0"
                   src="images/scholarship/scholarship-item-1.jpg"
                   alt="scholarship-thumb"
                 />
-                <div class="card-body">
-                  <p class="mb-1">Engineering</p>
-                  <h4 class="card-title mb-3">CHEMICAL ENGINEERING</h4>
-                  <ul class="list-styled">
+                <div className="card-body">
+                  <p className="mb-1">Engineering</p>
+                  <h4 className="card-title mb-3">CHEMICAL ENGINEERING</h4>
+                  <ul className="list-styled">
                     <li>institutes</li>
                     <li>Smart-affiliated research</li>
                     <li>Digital Access to Scholarship</li>
@@ -55,17 +55,17 @@ export default function ScholarshipDetails() {
               </div>
             </div>
             {/* <!-- scholarship item --> */}
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-              <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
+            <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <div className="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
                 <img
-                  class="card-img-top rounded-0"
+                  className="card-img-top rounded-0"
                   src="images/scholarship/scholarship-item-2.jpg"
                   alt="scholarship-thumb"
                 />
-                <div class="card-body">
-                  <p class="mb-1">Design & Arts</p>
-                  <h4 class="card-title mb-3">MUSIC & ARTS</h4>
-                  <ul class="list-styled">
+                <div className="card-body">
+                  <p className="mb-1">Design & Arts</p>
+                  <h4 className="card-title mb-3">MUSIC & ARTS</h4>
+                  <ul className="list-styled">
                     <li>institutes</li>
                     <li>Smart-affiliated research</li>
                     <li>Digital Access to Scholarship</li>
@@ -77,17 +77,17 @@ export default function ScholarshipDetails() {
               </div>
             </div>
             {/* <!-- scholarship item --> */}
-            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-              <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
+            <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <div className="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
                 <img
-                  class="card-img-top rounded-0"
+                  className="card-img-top rounded-0"
                   src="images/scholarship/scholarship-item-3.jpg"
                   alt="scholarship-thumb"
                 />
-                <div class="card-body">
-                  <p class="mb-1">Design & Arts</p>
-                  <h4 class="card-title mb-3">GRAPHICS DESIGN</h4>
-                  <ul class="list-styled">
+                <div className="card-body">
+                  <p className="mb-1">Design & Arts</p>
+                  <h4 className="card-title mb-3">GRAPHICS DESIGN</h4>
+                  <ul className="list-styled">
                     <li>institutes</li>
                     <li>Smart-affiliated research</li>
                     <li>Digital Access to Scholarship</li>

@@ -4,66 +4,66 @@ export default function CourseDetailsSection() {
   return (
     <>
       {/* <!-- section --> */}
-      <section class="section-sm">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 mb-4">
+      <section className="section-sm">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 mb-4">
               {/* <!-- course thumb --> */}
               <img
                 src="images/courses/course-single.jpg"
-                class="img-fluid w-100"
+                className="img-fluid w-100"
               />
             </div>
           </div>
           {/* <!-- course info --> */}
-          <div class="row align-items-center mb-5">
-            <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+          <div className="row align-items-center mb-5">
+            <div className="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
               <h2>Photography</h2>
             </div>
-            <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
-              <ul class="list-inline text-xl-center">
-                <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                  <div class="d-flex align-items-center">
-                    <i class="ti-book text-primary icon-md mr-2"></i>
-                    <div class="text-left">
-                      <h6 class="mb-0">COURSES</h6>
-                      <p class="mb-0">06 Month</p>
+            <div className="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+              <ul className="list-inline text-xl-center">
+                <li className="list-inline-item mr-4 mb-3 mb-sm-0">
+                  <div className="d-flex align-items-center">
+                    <i className="ti-book text-primary icon-md mr-2"></i>
+                    <div className="text-left">
+                      <h6 className="mb-0">COURSES</h6>
+                      <p className="mb-0">06 Month</p>
                     </div>
                   </div>
                 </li>
-                <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                  <div class="d-flex align-items-center">
-                    <i class="ti-alarm-clock text-primary icon-md mr-2"></i>
-                    <div class="text-left">
-                      <h6 class="mb-0">DURATION</h6>
-                      <p class="mb-0">03 Hours</p>
+                <li className="list-inline-item mr-4 mb-3 mb-sm-0">
+                  <div className="d-flex align-items-center">
+                    <i className="ti-alarm-clock text-primary icon-md mr-2"></i>
+                    <div className="text-left">
+                      <h6 className="mb-0">DURATION</h6>
+                      <p className="mb-0">03 Hours</p>
                     </div>
                   </div>
                 </li>
-                <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                  <div class="d-flex align-items-center">
-                    <i class="ti-wallet text-primary icon-md mr-2"></i>
-                    <div class="text-left">
-                      <h6 class="mb-0">FEE</h6>
-                      <p class="mb-0">From: $699</p>
+                <li className="list-inline-item mr-4 mb-3 mb-sm-0">
+                  <div className="d-flex align-items-center">
+                    <i className="ti-wallet text-primary icon-md mr-2"></i>
+                    <div className="text-left">
+                      <h6 className="mb-0">FEE</h6>
+                      <p className="mb-0">From: $699</p>
                     </div>
                   </div>
                 </li>
               </ul>
             </div>
-            <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-              <a href="#" class="btn btn-primary">
+            <div className="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+              <a href="#" className="btn btn-primary">
                 Apply now
               </a>
             </div>
             {/* <!-- border --> */}
-            <div class="col-12 mt-4 order-4">
-              <div class="border-bottom border-primary"></div>
+            <div className="col-12 mt-4 order-4">
+              <div className="border-bottom border-primary"></div>
             </div>
           </div>
           {/* <!-- course details --> */}
-          <div class="row">
-            <div class="col-12 mb-4">
+          <div className="row">
+            <div className="col-12 mb-4">
               <h3>About Course</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -85,12 +85,12 @@ export default function CourseDetailsSection() {
                 voluptatem.
               </p>
             </div>
-            <div class="col-12 mb-4">
-              <h3 class="mb-3">Requirements</h3>
-              <div class="col-12 px-0">
-                <div class="row">
-                  <div class="col-md-6">
-                    <ul class="list-styled">
+            <div className="col-12 mb-4">
+              <h3 className="mb-3">Requirements</h3>
+              <div className="col-12 px-0">
+                <div className="row">
+                  <div className="col-md-6">
+                    <ul className="list-styled">
                       <li>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </li>
@@ -105,8 +105,8 @@ export default function CourseDetailsSection() {
                       </li>
                     </ul>
                   </div>
-                  <div class="col-md-6">
-                    <ul class="list-styled">
+                  <div className="col-md-6">
+                    <ul className="list-styled">
                       <li>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </li>
@@ -124,9 +124,9 @@ export default function CourseDetailsSection() {
                 </div>
               </div>
             </div>
-            <div class="col-12 mb-4">
-              <h3 class="mb-3">How to Apply</h3>
-              <ul class="list-styled">
+            <div className="col-12 mb-4">
+              <h3 className="mb-3">How to Apply</h3>
+              <ul className="list-styled">
                 <li>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae obcaecati unde nulla? Lorem, ipsum dolor. Lorem,
@@ -154,7 +154,7 @@ export default function CourseDetailsSection() {
                 </li>
               </ul>
             </div>
-            <div class="col-12 mb-5">
+            <div className="col-12 mb-5">
               <h3>Fees and Funding</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -178,47 +178,47 @@ export default function CourseDetailsSection() {
             </div>
 
             {/* <!-- teacher --> */}
-            <div class="col-12">
-              <h5 class="mb-3">Teacher</h5>
-              <div class="d-flex justify-content-between align-items-center flex-wrap">
-                <div class="media mb-2 mb-sm-0">
+            <div className="col-12">
+              <h5 className="mb-3">Teacher</h5>
+              <div className="d-flex justify-content-between align-items-center flex-wrap">
+                <div className="media mb-2 mb-sm-0">
                   <img
-                    class="mr-4 img-fluid"
+                    className="mr-4 img-fluid"
                     src="images/teacher.jpg"
                     alt="Teacher"
                   />
-                  <div class="media-body">
-                    <h4 class="mt-0">Sam Somrat</h4>
+                  <div className="media-body">
+                    <h4 className="mt-0">Sam Somrat</h4>
                     Photographer
                   </div>
                 </div>
-                <div class="social-link">
-                  <h6 class="d-none d-sm-block">Social Link</h6>
-                  <ul class="list-inline">
-                    <li class="list-inline-item">
-                      <a class="d-inline-block text-light p-1" href="#">
-                        <i class="ti-facebook"></i>
+                <div className="social-link">
+                  <h6 className="d-none d-sm-block">Social Link</h6>
+                  <ul className="list-inline">
+                    <li className="list-inline-item">
+                      <a className="d-inline-block text-light p-1" href="#">
+                        <i className="ti-facebook"></i>
                       </a>
                     </li>
-                    <li class="list-inline-item">
-                      <a class="d-inline-block text-light p-1" href="#">
-                        <i class="ti-twitter-alt"></i>
+                    <li className="list-inline-item">
+                      <a className="d-inline-block text-light p-1" href="#">
+                        <i className="ti-twitter-alt"></i>
                       </a>
                     </li>
-                    <li class="list-inline-item">
-                      <a class="d-inline-block text-light p-1" href="#">
-                        <i class="ti-linkedin"></i>
+                    <li className="list-inline-item">
+                      <a className="d-inline-block text-light p-1" href="#">
+                        <i className="ti-linkedin"></i>
                       </a>
                     </li>
-                    <li class="list-inline-item">
-                      <a class="d-inline-block text-light p-1" href="#">
-                        <i class="ti-instagram"></i>
+                    <li className="list-inline-item">
+                      <a className="d-inline-block text-light p-1" href="#">
+                        <i className="ti-instagram"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="border-bottom border-primary mt-4"></div>
+              <div className="border-bottom border-primary mt-4"></div>
             </div>
           </div>
         </div>

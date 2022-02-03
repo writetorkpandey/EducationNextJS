@@ -23,9 +23,9 @@ export default function ContactPageTitle() {
 								<li className="list-inline-item text-white h3 font-secondary @@nasted" />
 							</ul>
 							<p className="text-lighten">
-								Do you have other questions? Don't worry, there
-								aren't any dumb questions. Just fill out the
-								form below and we'll get back to you as soon as
+								Do you have other questions? Don&apos;t worry, there
+								aren&apos;t any dumb questions. Just fill out the
+								form below and we&apos;ll get back to you as soon as
 								possible.
 							</p>
 						</div>

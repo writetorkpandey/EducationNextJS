@@ -5,23 +5,23 @@ export default function BlogDetailPageTitle() {
     <>
       {/* <!-- page title --> */}
       <section
-        class="page-title-section overlay"
+        className="page-title-section overlay"
         data-background="images/backgrounds/page-title.jpg"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <ul class="list-inline custom-breadcrumb">
-                <li class="list-inline-item">
-                  <a class="h2 text-primary font-secondary" href="blog.html">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8">
+              <ul className="list-inline custom-breadcrumb">
+                <li className="list-inline-item">
+                  <a className="h2 text-primary font-secondary" href="blog.html">
                     Our Blog
                   </a>
                 </li>
-                <li class="list-inline-item text-white h3 font-secondary nasted">
+                <li className="list-inline-item text-white h3 font-secondary nasted">
                   Blog Details
                 </li>
               </ul>
-              <p class="text-lighten">
+              <p className="text-lighten">
                 Our courses offer a good compromise between the continuous
                 assessment favoured by some universities and the emphasis placed
                 on final exams by others.

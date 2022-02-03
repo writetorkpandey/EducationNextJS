@@ -6,70 +6,70 @@ export default function EventSingle() {
   <>
 
  {/* event single  */}
-<section class="section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">English Spoken</h2>
+<section className="section-sm">
+  <div className="container">
+    <div className="row">
+      <div className="col-12">
+        <h2 className="section-title">English Spoken</h2>
       </div>
        {/* event image  */}
-      <div class="col-12 mb-4">
-        <img src="images/events/event-single.jpg" alt="event thumb" class="img-fluid w-100" />
+      <div className="col-12 mb-4">
+        <img src="images/events/event-single.jpg" alt="event thumb" className="img-fluid w-100" />
       </div>
     </div>
      {/* event info  */}
-    <div class="row align-items-center mb-5">
-      <div class="col-lg-9">
-        <ul class="list-inline">
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-location-pin text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">LOCATION</h6>
-                <p class="mb-0">Dhanmondi, Dhaka</p>
+    <div className="row align-items-center mb-5">
+      <div className="col-lg-9">
+        <ul className="list-inline">
+          <li className="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div className="d-flex align-items-center">
+              <i className="ti-location-pin text-primary icon-md mr-2"></i>
+              <div className="text-left">
+                <h6 className="mb-0">LOCATION</h6>
+                <p className="mb-0">Dhanmondi, Dhaka</p>
               </div>
             </div>
           </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-calendar text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">DATE</h6>
-                <p class="mb-0">December-12-18</p>
+          <li className="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div className="d-flex align-items-center">
+              <i className="ti-calendar text-primary icon-md mr-2"></i>
+              <div className="text-left">
+                <h6 className="mb-0">DATE</h6>
+                <p className="mb-0">December-12-18</p>
               </div>
             </div>
           </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-time text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">TIME</h6>
-                <p class="mb-0">04: 00 pm</p>
+          <li className="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div className="d-flex align-items-center">
+              <i className="ti-time text-primary icon-md mr-2"></i>
+              <div className="text-left">
+                <h6 className="mb-0">TIME</h6>
+                <p className="mb-0">04: 00 pm</p>
               </div>
             </div>
           </li>
-          <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
-            <div class="d-flex align-items-center">
-              <i class="ti-wallet text-primary icon-md mr-2"></i>
-              <div class="text-left">
-                <h6 class="mb-0">ENTRY FEE</h6>
-                <p class="mb-0">From: $699</p>
+          <li className="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
+            <div className="d-flex align-items-center">
+              <i className="ti-wallet text-primary icon-md mr-2"></i>
+              <div className="text-left">
+                <h6 className="mb-0">ENTRY FEE</h6>
+                <p className="mb-0">From: $699</p>
               </div>
             </div>
           </li>
         </ul>
       </div>
-      <div class="col-lg-3 text-lg-right text-left">
-        <a href="#" class="btn btn-primary">Apply now</a>
+      <div className="col-lg-3 text-lg-right text-left">
+        <a href="#" className="btn btn-primary">Apply now</a>
       </div>
        {/* border  */}
-      <div class="col-12 mt-4 order-4">
-        <div class="border-bottom border-primary"></div>
+      <div className="col-12 mt-4 order-4">
+        <div className="border-bottom border-primary"></div>
       </div>
     </div>
      {/* event details  */}
-    <div class="row">
-      <div class="col-12 mb-50">
+    <div className="row">
+      <div className="col-12 mb-50">
         <h3>About Event</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -84,53 +84,53 @@ export default function EventSingle() {
       </div>
     </div>
      {/* event speakers  */}
-    <div class="row">
-      <div class="col-12">
-        <h3 class="mb-4">Event Speakers</h3>
+    <div className="row">
+      <div className="col-12">
+        <h3 className="mb-4">Event Speakers</h3>
       </div>
        {/* speakers  */}
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="media">
-          <img class="mr-3 img-fluid" src="images/event-speakers/speaker-1.jpg" alt="speaker" />
-          <div class="media-body">
-            <h4 class="mt-0">Jack Mastio</h4>
+      <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div className="media">
+          <img className="mr-3 img-fluid" src="images/event-speakers/speaker-1.jpg" alt="speaker" />
+          <div className="media-body">
+            <h4 className="mt-0">Jack Mastio</h4>
             Teacher
           </div>
         </div>
       </div>
       {/* speakers  */}
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="media">
-          <img class="mr-3 img-fluid" src="images/event-speakers/speaker-2.jpg" alt="speaker" />
-          <div class="media-body">
-            <h4 class="mt-0">John Doe</h4>
+      <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div className="media">
+          <img className="mr-3 img-fluid" src="images/event-speakers/speaker-2.jpg" alt="speaker" />
+          <div className="media-body">
+            <h4 className="mt-0">John Doe</h4>
             Teacher
           </div>
         </div>
       </div>
        {/* speakers  */}
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="media">
-          <img class="mr-3 img-fluid" src="images/event-speakers/speaker-3.jpg" alt="speaker" />
-          <div class="media-body">
-            <h4 class="mt-0">Randy Luis</h4>
+      <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div className="media">
+          <img className="mr-3 img-fluid" src="images/event-speakers/speaker-3.jpg" alt="speaker" />
+          <div className="media-body">
+            <h4 className="mt-0">Randy Luis</h4>
             Teacher
           </div>
         </div>
       </div>
       {/* speakers  */}
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="media">
-          <img class="mr-3 img-fluid" src="images/event-speakers/speaker-4.jpg" alt="speaker" />
-          <div class="media-body">
-            <h4 class="mt-0">Alfred Jin</h4>
+      <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div className="media">
+          <img className="mr-3 img-fluid" src="images/event-speakers/speaker-4.jpg" alt="speaker" />
+          <div className="media-body">
+            <h4 className="mt-0">Alfred Jin</h4>
             Teacher
           </div>
         </div>
       </div>
       {/* border  */}
-      <div class="col-12 mt-4 order-4">
-        <div class="border-bottom border-primary"></div>
+      <div className="col-12 mt-4 order-4">
+        <div className="border-bottom border-primary"></div>
       </div>
     </div>
   </div>
