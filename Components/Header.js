@@ -63,7 +63,7 @@ export default function Header() {
 									<li className="list-inline-item">
 										<a
 											className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-											href="notice"
+											href="notice.html"
 										>
 											notice
 										</a>
@@ -71,7 +71,7 @@ export default function Header() {
 									<li className="list-inline-item">
 										<a
 											className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-											href="research"
+											href="research.html"
 										>
 											research
 										</a>
@@ -79,7 +79,7 @@ export default function Header() {
 									<li className="list-inline-item">
 										<a
 											className="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-											href="scholarship"
+											href="scholarship.html"
 										>
 											SCHOLARSHIP
 										</a>
@@ -113,7 +113,7 @@ export default function Header() {
 				<div className="navigation w-100">
 					<div className="container">
 						<nav className="navbar navbar-expand-lg navbar-dark p-0">
-							<a className="navbar-brand" href="index">
+							<a className="navbar-brand" href="index.html">
 								<img src="/images/logo.png" alt="logo" />
 							</a>
 							<button
@@ -139,22 +139,22 @@ export default function Header() {
 										</a>
 									</li>
 									<li className="nav-item @@about">
-										<a className="nav-link" href="about">
+										<a className="nav-link" href="about.html">
 											About
 										</a>
 									</li>
 									<li className="nav-item @@courses">
-										<a className="nav-link" href="courses">
+										<a className="nav-link" href="courses.html">
 											COURSES
 										</a>
 									</li>
 									<li className="nav-item @@events">
-										<a className="nav-link" href="events">
+										<a className="nav-link" href="events.html">
 											EVENTS
 										</a>
 									</li>
 									<li className="nav-item @@blog">
-										<a className="nav-link" href="blog">
+										<a className="nav-link" href="blog.html">
 											BLOG
 										</a>
 									</li>
@@ -176,62 +176,62 @@ export default function Header() {
 										>
 											<a
 												className="dropdown-item"
-												href="teachers"
+												href="teachers.html"
 											>
 												Teacher
 											</a>
 											<a
 												className="dropdown-item"
-												href="teachersSingle"
+												href="teachersSingle.html"
 											>
 												Teacher Single
 											</a>
 											<a
 												className="dropdown-item"
-												href="notice"
+												href="notice.html"
 											>
 												Notice
 											</a>
 											<a
 												className="dropdown-item"
-												href="noticeDetails"
+												href="noticeDetails.html"
 											>
 												Notice Details
 											</a>
 											<a
 												className="dropdown-item"
-												href="research"
+												href="research.html"
 											>
 												Research
 											</a>
 											<a
 												className="dropdown-item"
-												href="scholarship"
+												href="scholarship.html"
 											>
 												Scholarship
 											</a>
 											<a
 												className="dropdown-item"
-												href="courseDetails"
+												href="courseDetails.html"
 											>
 												Course Details
 											</a>
 											<a
 												className="dropdown-item"
-												href="eventDetails"
+												href="eventDetails.html"
 											>
 												Event Details
 											</a>
 											<a
 												className="dropdown-item"
-												href="blogDetails"
+												href="blogDetails.html"
 											>
 												Blog Details
 											</a>
 										</div>
 									</li>
 									<li className="nav-item @@contact">
-										<a className="nav-link" href="contact">
+										<a className="nav-link" href="contact.html">
 											CONTACT
 										</a>
 									</li>
